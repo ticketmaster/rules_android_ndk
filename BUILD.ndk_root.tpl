@@ -2,6 +2,7 @@
 
 package(default_visibility = ["//visibility:public"])
 
+load("@rules_cc//cc:cc_library", "cc_library")
 load("//:target_systems.bzl", "CPU_CONSTRAINT", "TARGET_SYSTEM_NAMES")
 
 exports_files(["target_systems.bzl"])

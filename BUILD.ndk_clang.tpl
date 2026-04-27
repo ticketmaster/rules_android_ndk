@@ -1,5 +1,6 @@
 """Declarations for the NDK's Clang directory."""
 
+load("@rules_cc//cc:defs.bzl", "cc_toolchain_suite", "cc_toolchain")
 load("//:ndk_cc_toolchain_config.bzl", "ndk_cc_toolchain_config_rule")
 load("//:target_systems.bzl", "TARGET_SYSTEM_NAMES")
 
